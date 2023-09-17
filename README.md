@@ -1,12 +1,16 @@
-# Getting Started with Create React App
+# Netflix Clone
+
+This is a React-based web application that replicates some of the features of the popular streaming platform Netflix. It allows users to browse and watch a selection of movies and series.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,12 +18,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+#### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,7 +33,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
@@ -68,3 +72,43 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Features
+
+- View Netflix Originals, Trending Now, Action, Comedy, Romance, Horror, and Documentaries.
+- Click on a poster to play its trailer.
+- Banner that automatically switches between trending movies and series.
+- Play and My List buttons (functionality not implemented in this clone).
+
+## Components
+
+- `Navbar`: Displays the Netflix logo and user avatar.
+- `Banner`: Displays a dynamically changing background image and relevant movie/series information.
+- `Posters`: Displays a row of movie/series posters with the ability to play trailers.
+
+## How to Run
+
+1. Clone this repository to your local machine.
+2. Navigate to the project directory in the terminal.
+3. Install dependencies using `npm install`.
+4. Start the application using `npm start`.
+5. Open your browser and go to `http://localhost:3000`.
+
+## Technologies Used
+
+- React
+- Axios (for API requests)
+- CSS
+
+## API
+
+This project uses the [The Movie Database (TMDb) API](https://www.themoviedb.org/documentation/api) for fetching movie and series data.
+
+## Acknowledgments
+
+- This project was created as a practice exercise for learning React.
+- Special thanks to [TMDb](https://www.themoviedb.org/) for providing the API.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
